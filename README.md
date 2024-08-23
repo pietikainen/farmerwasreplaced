@@ -1,11 +1,11 @@
 ![The Farmer Was Replaced .jpg](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/capsule_616x353.jpg?t=1704041534)
+Program and optimize a drone to automate a farm and watch it do the work for you. 
+Collect resources to unlock better technology and become the most efficient farmer in the world. 
+Improve your problem solving and coding skills.
 
+https://store.steampowered.com/app/2060160/The_Farmer_Was_Replaced/
 
 ### Background and purpose
-
-* Program and optimize a drone to automate a farm and watch it do the work for you. 
-* Collect resources to unlock better technology and become the most efficient farmer in the world. 
-* Improve your problem solving and coding skills.
 
 Program a drone using a simple python-like language to fully automate various farming tasks that would otherwise be very grindy. Feel the satisfaction of simply pressing "execute" and watching your drone do all the hard work.
 
