@@ -1,4 +1,4 @@
-from navigate import *
+from movement import *
 
 def harvest_item():
 

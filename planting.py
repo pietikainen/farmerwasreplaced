@@ -1,4 +1,4 @@
-from navigate import *
+from movement import *
 from harvesting import *
 from main import harvest_item
 
@@ -99,18 +99,15 @@ def polyculture():
 
     plant(Entities.Bush)
     friend = get_companion()
-    quick_print("Friend: ", friend)
-    quick_print("Friend[0]: ", friend[0])
-    quick_print("Friend[1]: ", friend[1])
-    quick_print("Friend[2]: ", friend[2])
     move_to(friend[1], friend[2])
     
-    while friend != None:          
-        till()
-        # watering()
+    while friend != None:
+        if friend[0] == Entities.Carrots:          
+            till()
+        watering()
         plant(friend[0])
-        quick_print("Planted", friend[0], "in", friend[1], friend[2])
         friend = get_companion()
+        quick_print("Going to plant next: ", friend)
         move_to(friend[1], friend[2])
         if get_pos_x() == friend[1] and get_pos_y() == friend[2]:
             harvest()
